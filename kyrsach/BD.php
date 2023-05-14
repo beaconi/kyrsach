@@ -7,6 +7,9 @@ class Shop {
         $dsn = 'mysql:host=localhost;dbname=shop';
         $username = 'root';
         $password = '';
+        $dsn = 'mysql:host=localhost;dbname=shop';
+        $username = 'hochy';
+        $password = 'avt0mat';
 
         try  {
             $this->dbh = new PDO($dsn, $username, $password);
